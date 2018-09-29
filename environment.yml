@@ -1,0 +1,34 @@
+name: move37
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - certifi
+  - pip=18.0
+  - python=3.6
+  - setuptools
+  - wheel
+  - pip:
+    - absl-py
+    - astor
+    - chardet
+    - future
+    - gast
+    - grpcio
+    - gym
+    - h5py
+    - idna
+    - keras-applications
+    - keras-preprocessing
+    - markdown
+    - numpy
+    - protobuf
+    - pyglet
+    - requests
+    - six
+    - tensorboard
+    - tensorflow-gpu
+    - termcolor
+    - urllib3
+    - werkzeug
+
